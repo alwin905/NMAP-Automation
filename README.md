@@ -1,35 +1,49 @@
+# 🔍 Nmap Vulnerability Scanner with ISO 27001 Mapping
 
-Nmap Vulnerability Scanner with ISO 27001 Mapping
-An automated tool that performs Nmap vulnerability scanning and maps the identified vulnerabilities to ISO/IEC 27001 security controls. This helps security professionals assess network risks and compliance with international information security standards.
+This project is an advanced Nmap automation tool designed to:
+- Perform network reconnaissance using Nmap
+- Parse and analyze the results
+- Map discovered vulnerabilities to **ISO/IEC 27001:2022 controls**
 
-Steganography Tool
-Welcome to the Steganography Tool! This application allows you to securely hide files inside images (encryption) and extract hidden files from images (decryption). It is designed for ethical use cases such as securely storing sensitive data or safely sharing hidden information.
+The tool simplifies security assessments and helps align your findings with industry-standard compliance frameworks.
 
-Available Versions
-Portable Version – A standalone .exe file requiring no installation.
+---
 
-Setup Version – A standard installer for Windows users.
+## 🚀 Features
 
-Source Code – The original Python scripts for those who want to inspect, modify, or contribute.
+- ✅ Automated Nmap scanning (Quick, Full, OS detection, Port-specific)
+- ✅ Parses `nmap` XML/normal output
+- ✅ Maps vulnerabilities to **ISO 27001:2022** Annex A controls
+- ✅ Generates readable scan reports
+- ✅ Works offline — portable `.exe` version available
+- ✅ Beginner-friendly GUI and CLI versions
 
-You can find these versions in the Releases section on GitHub.
+---
 
-How to Use
-Download the version that fits your needs:
+## 📦 Available Versions
 
-Portable: Just run the .exe
+| Version | Description |
+|--------|-------------|
+| 🟢 Portable `.exe` | For Windows, no installation needed |
+| 🟡 Setup Installer | Standard Windows installation |
+| 🧪 Source Code | Full Python source for devs or Linux users |
 
-Setup: Install and launch
+> All versions are available in the **[Releases](https://github.com/alwin905/NMAP-Automation/releases)** section.
 
-Source Code: Run with Python using python guiv2.py (make sure Python is installed)
+---
 
-Use the GUI to hide or extract files as needed.
+## 🖥️ How to Use
 
-Caution ⚠️
-This tool is intended only for ethical and legal purposes. Do not use it for unauthorized data concealment or malicious activities. The developer is not responsible for misuse.
+### ▶️ Run the Tool
 
-By using this tool, you agree to use it lawfully.
+#### 🔘 Portable `.exe`:
+Just double-click `grc.exe` — no install required.
 
-Contributions & Issues
-If you find any bugs, want to request features, or contribute code, please open an Issue or Pull Request on GitHub.
+#### 🔘 Setup Version:
+1. Download the installer
+2. Install it
+3. Run from Start Menu or Desktop
 
+#### 🔘 Python Source:
+```bash
+python grc.py
